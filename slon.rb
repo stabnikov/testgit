@@ -5,8 +5,17 @@
 p "фыв"
 while 1
 visok = 0
-beginYear = (gets.chop).to_i
-endYear = (gets.chop).to_i
+temp = gets.chop
+if (temp == 'exit') 
+	abort
+end
+beginYear = temp.to_i
+temp = gets.chop
+if (temp == "exit") 
+	abort
+end
+endYear = temp.to_i
+#endYear = (gets.chop).to_i
 slon = endYear - beginYear
 slon.times do
 	if (beginYear%4 == 0)
