@@ -7,11 +7,13 @@ while 1
 visok = 0
 temp = gets.chop
 if (temp == 'exit') 
+	puts "Выходим"
 	abort
 end
 beginYear = temp.to_i
 temp = gets.chop
 if (temp == "exit") 
+	puts "Выходим"
 	abort
 end
 endYear = temp.to_i
