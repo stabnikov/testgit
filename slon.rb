@@ -1,9 +1,6 @@
 ﻿#require "rubygems"
 #require "active_support"
 #encoding: utf-8 
-def incr (value)
-	return value + 1
-end
 
 p "фыв"
 while 1
@@ -14,9 +11,7 @@ slon = endYear - beginYear
 slon.times do
 	if (beginYear%4 == 0)
 		visok  += 1
-#		incr(visok)
 	end
-
 	beginYear += 1
 end
 puts visok
