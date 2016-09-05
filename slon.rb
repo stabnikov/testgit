@@ -13,7 +13,7 @@ end
 beginYear = temp.to_i
 temp = gets.chop
 if (temp == "exit") 
-	puts "Пока"
+	puts "Пока пока"
 	abort
 end
 endYear = temp.to_i
